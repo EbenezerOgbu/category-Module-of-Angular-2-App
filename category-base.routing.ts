@@ -8,7 +8,6 @@ import { CategoryBaseComponent } from "./components/category-base.component";
 
 export const categoryBaseRouting: Routes = [
     { path: '', component: MainCategoryComponent },
-    //{ path: ':id', redirectTo: "/subcategory", pathMatch: "full" },
     { path: ':id', component: SubCategoryComponent }
 ];
 
