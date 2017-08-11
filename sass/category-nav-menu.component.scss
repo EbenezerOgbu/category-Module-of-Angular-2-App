@@ -1,0 +1,29 @@
+﻿.user-area {
+    display: flex;
+    align-items: center;
+    color: white;
+
+    &__l-profile {
+        display: block;
+        width: 70px;
+        height: 70px;
+        flex-shrink: 0;
+    }
+    &__button {
+        display: inline-block;
+        border: none;
+        padding: 4px 3px 3px;
+        background-color: white;
+        transition: all .3s ease;
+        font-size: 11px;
+        line-height: 100%;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: transparent;
+            color: white;
+        }
+    }
+}
